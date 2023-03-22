@@ -1,0 +1,12 @@
+.header {
+	background-image: url("../images/main.png");
+	min-width: 100%;
+	min-height: 650px;
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.header__menu {
+	margin: 0 98px;
+}
