@@ -1,0 +1,6 @@
+@media (max-width:6144px) and (min-width: 1228.80px) {
+	.page {
+		padding-left: calc((100% - 1366px)/2);
+		padding-right: calc((100% - 1366px)/2);
+	}
+}

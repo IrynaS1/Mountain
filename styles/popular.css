@@ -1,0 +1,139 @@
+.popular {
+	padding: 0 98px 0 98px;
+}
+
+.popular__title {
+	padding: 0 390px 0 390px;
+	margin-bottom: 80px;
+}
+
+.popular-cards__pics {
+	display: flex;
+	gap: 30px;
+	margin-bottom: 40px;
+}
+
+.popular-card__pic {
+	min-width: 370px;
+	min-height: 326px;
+	background: -webkit-linear-gradient(180deg, rgba(249, 249, 250, 0) 0%, rgba(249, 249, 250, 0.9) 100%);
+}
+
+.popular-card__pic_one {
+	background-image: url(../images/img_tour1.png);
+}
+
+.popular-card__pic_two {
+	background-image: url(../images/img_tour2.png);
+}
+
+.popular-card__pic_three {
+	background-image: url(../images/img_tour3.png);
+}
+
+.popular-card__top {
+	display: flex;
+	justify-content: space-between;
+	padding: 39px 40px 0 40px;
+}
+
+.popular-card__dot {
+	display: flex;
+}
+
+.popular-card__dot-symbol {
+	background-image: url(../images/dot.svg);
+	min-width: 13px;
+	min-height: 16px;
+	background-repeat: no-repeat;
+	margin-right: 7px;
+}
+
+.popular-card__dot-text {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 115%;
+	color: #061B28;
+}
+
+.popular-card__bookmarks {
+	min-width: 35px;
+	min-height: 35px;
+	padding-top: 0;
+	background: rgba(252, 252, 252, 0.4);
+	border-radius: 50%;
+	border: none;
+	background-image: url(../images/flag-symbol.svg);
+}
+
+.popular-card__description {
+	padding-left: 40px;
+	padding-top: 114px;
+	color: #061B28;
+}
+
+.popular-card__name-tour {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 26px;
+	line-height: 115%;
+	margin-bottom: 25px;
+}
+
+.popular-card__details {
+	display: flex;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 115%;
+	color: #061B28;
+}
+
+.popular-card__details_mb {
+	margin-bottom: 24px;
+}
+
+.popular-card__details_height {
+	padding-right: 10px;
+}
+
+.popular-card__details_days {
+	padding-left: 10px;
+	padding-right: 10px;
+	border-left: 1px solid #061B28;
+	border-right: 1px solid #061B28;
+}
+
+.popular-card__details_price {
+	padding-left: 10px;
+}
+
+.popular-card__level {
+	padding-left: 10px;
+}
+
+.popular-cards__buttons {
+	display: flex;
+	justify-content: end;
+	margin-bottom: 130px;
+}
+
+.popular-cards__button {
+	min-width: 35px;
+	min-height: 35px;
+	background: #E6E8EA;
+	border-radius: 50%;
+	border: none;
+}
+
+.popular-cards__button_left {
+	background-image: url(../images/arrow-left.svg);
+	margin-right: 25px;
+}
+
+.popular-cards__button_right {
+	background-image: url(../images/arrow-right.svg);
+}

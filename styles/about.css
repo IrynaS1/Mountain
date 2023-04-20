@@ -1,0 +1,35 @@
+.about {
+	display: flex;
+	padding: 140px 0 0 98px;
+	margin-bottom: 140px;
+}
+
+.about-us {
+	display: flex;
+	flex-direction: column;
+	min-height: 509px;
+}
+
+.about-us__title {
+	margin-bottom: 50px;
+}
+
+.about-us__text {
+	max-width: 352px;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 150%;
+	color: #061B28;
+}
+
+.about-us__text_mb {
+	margin-bottom: 20px;
+}
+
+.about-map {
+	margin-top: 83px;
+	background-image: url(../images/map.png);
+	min-width: 795px;
+	max-height: 375px;
+}

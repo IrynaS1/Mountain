@@ -2,11 +2,93 @@
 	background-image: url("../images/main.png");
 	min-width: 100%;
 	min-height: 650px;
-	background-size: contain;
-	background-position: center;
-	background-repeat: no-repeat;
 }
 
 .header__menu {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 42px;
+	padding-bottom: 160px;
 	margin: 0 98px;
+}
+
+.header__logo {
+	font-style: normal;
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 36px;
+	margin-right: 99px;
+}
+
+.header__items {
+	display: flex;
+}
+
+.top-menu {
+	display: flex;
+}
+
+.header__items-menu {
+	gap: 30px;
+	padding-top: 9px;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 19px;
+	margin-right: 296px;
+}
+
+.header__items-phone {
+	padding-top: 9px;
+	margin-right: 43px;
+}
+
+.header__items-search {
+	margin-right: 30px;
+}
+
+.top-menu__button {
+	min-width: 35px;
+	min-height: 35px;
+	padding-top: 0;
+	background: rgba(252, 252, 252, 0.4);
+	border-radius: 50%;
+	border: none;
+}
+
+.header__items-search-button {
+	background-image: url('../images/search-icon.svg');
+}
+
+.header__items-registration-button {
+	background-image: url('../images/reg-icon.svg');
+}
+
+.top-title__text {
+	padding-left: 520px;
+	padding-right: 520px;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 98px;
+	line-height: 145px;
+}
+
+.top-title {
+	margin-bottom: 30px;
+}
+
+.top-button {
+	padding-left: 596px;
+	padding-right: 600px;
+}
+
+.top-button__detail {
+	padding: 16px 43px 18px 43px;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 19px;
+	color: #FCFCFC;
+	border: 2px solid #FCFCFC;
+	background: url(snow-coated-rocky-mountains-772803.jpg);
 }

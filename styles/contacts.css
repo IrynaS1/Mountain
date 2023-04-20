@@ -1,0 +1,60 @@
+.contacts-block {
+	display: flex;
+	gap: 70px;
+	padding: 140px 293px 0 98px;
+	margin-bottom: 140px;
+}
+
+.contacts-map {
+	background-image: url(../images/img_map.png);
+	min-width: 600px;
+	min-height: 457px;
+}
+
+.contacts-info__title {
+	margin-bottom: 40px;
+}
+
+.contacts-name {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 150%;
+	color: #061B28;
+	margin-bottom: 10px;
+}
+
+.contacts-text {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 22px;
+	line-height: 140%;
+	color: #061B28;
+	margin-bottom: 20px;
+}
+
+.contacts-info__social-icons {
+	display: flex;
+	gap: 33px;
+	align-items: center;
+}
+
+.contacts-info__social-icon_fb {
+	background-image: url(../images/facebook.svg);
+	min-width: 11px;
+	min-height: 20px;
+}
+
+.contacts-info__social-icon_insta {
+	background-image: url(../images/insta.svg);
+	min-width: 20px;
+	min-height: 20px;
+}
+
+.contacts-info__social-icon_twit {
+	background-image: url(../images/twitter.svg);
+	min-width: 20px;
+	min-height: 16px;
+}

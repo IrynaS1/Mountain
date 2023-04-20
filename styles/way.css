@@ -1,0 +1,95 @@
+.way {
+	background-image: url(../images/img_tour_rus.png);
+	min-width: 100%;
+	min-height: 757px;
+	padding: 80px 268px 0 268px;
+}
+
+.way__title {
+	margin-bottom: 25px;
+}
+
+.way__title-color {
+	color: #FCFCFC;
+	text-align: center;
+}
+
+.way__subtitle {
+	padding-left: 293px;
+	padding-right: 293px;
+	margin-bottom: 60px;
+}
+
+.way__subtitle-text {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 140%;
+	color: #FCFCFC;
+	text-align: center;
+}
+
+.way__data {
+	display: flex;
+	margin-bottom: 35px;
+}
+
+.way__data-column {
+	display: flex;
+	flex-direction: column;
+}
+
+.way__data-top {
+	padding-left: 90px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 140%;
+	color: #A7AEB4;
+}
+
+.way__data-row {
+	padding-left: 90px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 22px;
+	line-height: 140%;
+	color: #FCFCFC;
+	margin-bottom: 15px;
+}
+
+.way__data-row_pl {
+	padding-left: 80px;
+}
+
+.way__data-line {
+	width: 100%;
+	border: 1px solid #45545E;
+}
+
+.way__data-line:not(:last-child) {
+	margin-bottom: 20px;
+}
+
+.way__data-column_width {
+	width: 100%;
+}
+
+.way__button {
+	padding-left: 300px;
+}
+
+.way__button-btn {
+	padding: 16px 33px 18px 33px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 19px;
+	color: #FCFCFC;
+	border: 2px solid #FCFCFC;
+	background-color: rgba(28, 28, 28, 0);
+}
