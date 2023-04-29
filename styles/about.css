@@ -33,3 +33,79 @@
 	min-width: 795px;
 	max-height: 375px;
 }
+
+@media (max-width: 1228.80px) {
+	.about {
+		padding: 140px 0 0 30px;
+	}
+}
+
+@media (max-width: 1024px) {
+	.about {
+		padding: 80px 0 0 30px;
+		margin-bottom: 80px;
+	}
+
+	.about-us {
+		min-height: 0;
+	}
+
+	.about-map {
+		margin-top: 110px;
+		min-width: 510px;
+	}
+}
+
+@media (max-width: 877.71px) {
+	.about-us__title {
+		margin-bottom: 30px;
+	}
+
+	.about-map {
+		margin-top: 50px;
+	}
+
+	.about-us__text {
+		font-size: 14px;
+	}
+}
+
+@media (max-width: 768px) {
+	.about {
+		padding: 40px 0 0 30px;
+		margin-bottom: 40px;
+	}
+
+	.about-us__text_mb {
+		margin-bottom: 10px;
+	}
+}
+
+@media (max-width:614.40px) {
+	.about-map {
+		margin-top: 60px;
+		min-width: 300px;
+	}
+}
+
+@media (max-width:512px) {
+	.about-us__text {
+		font-size: 8px;
+	}
+}
+
+@media (max-width:384px) {
+	.about {
+		padding: 20px 30px 0 30px;
+		margin-bottom: 20px;
+	}
+
+	.about-us__title {
+		text-align: center;
+		margin-bottom: 10px;
+	}
+
+	.picture__about {
+		display: none;
+	}
+}

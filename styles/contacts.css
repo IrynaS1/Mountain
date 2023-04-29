@@ -15,6 +15,10 @@
 	margin-bottom: 40px;
 }
 
+.contacts-info__img-mobile {
+	display: none;
+}
+
 .contacts-name {
 	font-family: 'Roboto';
 	font-style: normal;
@@ -57,4 +61,129 @@
 	background-image: url(../images/twitter.svg);
 	min-width: 20px;
 	min-height: 16px;
+}
+
+@media (max-width: 1228.80px) {
+	.contacts-block {
+		padding: 140px 60px 0 30px;
+	}
+}
+
+@media (max-width: 1024px) {
+	.contacts-block {
+		padding: 80px 30px 0 30px;
+		margin-bottom: 80px;
+	}
+
+	.contacts-map {
+		min-width: 500px;
+		min-height: 320px;
+	}
+
+	.contacts-text {
+		font-size: 18.5px;
+		margin-bottom: 10px;
+	}
+
+	.contacts-name {
+		font-size: 16px;
+		margin-bottom: 5px;
+	}
+}
+
+@media (max-width: 768px) {
+	.contacts-block {
+		padding: 40px 30px 0 30px;
+		margin-bottom: 40px;
+	}
+
+	.contacts-map {
+		min-width: 400px;
+	}
+
+	.contacts-name {
+		font-size: 12px;
+	}
+
+	.contacts-text {
+		font-size: 14px;
+		margin-bottom: 20px;
+	}
+}
+
+@media (max-width:614.40px) {
+	.contacts-map {
+		min-width: 300px;
+	}
+}
+
+@media (max-width:512px) {
+	.contacts-map {
+		min-width: 250px;
+	}
+
+	.contacts-block {
+		gap: 50px;
+	}
+
+	.contacts-name {
+		font-size: 10px;
+	}
+
+	.contacts-text {
+		font-size: 10px;
+	}
+}
+
+@media (max-width:384px) {
+	.contacts-block {
+		gap: 20px;
+		padding: 20px 30px 0 30px;
+		margin-bottom: 20px;
+	}
+
+	.contacts-info__title {
+		margin-bottom: 10px;
+	}
+
+	.title__contacts {
+		text-align: center;
+	}
+
+	.contacts-map {
+		display: none;
+	}
+
+	.contacts-info__img-mobile {
+		display: block;
+		background-image: url(../images/img_map.png);
+		background-repeat: no-repeat;
+		background-size: contain;
+		min-width: 320px;
+		min-height: 240px;
+		margin-bottom: 10px;
+	}
+
+	.contacts-info__data {
+		text-align: center;
+	}
+
+	.contacts-text {
+		margin-bottom: 10px;
+	}
+
+	.contacts-info__social-icons {
+		padding-left: 100px;
+	}
+}
+
+@media (max-width:307.20px) {
+	.contacts-info__img-mobile {
+		min-width: 250px;
+		min-height: 190px;
+	}
+
+	.contacts-info__social-icons {
+		padding-left: 70px;
+	}
 }

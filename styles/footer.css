@@ -22,3 +22,51 @@
 	line-height: 36px;
 	color: #FCFCFC;
 }
+
+@media (max-width: 1024px) {
+	.footer {
+		padding: 30px 30px;
+	}
+}
+
+@media (max-width: 877.71px) {
+	.footer-text {
+		font-size: 10px;
+	}
+
+	.footer__logo {
+		font-size: 20px;
+	}
+}
+
+@media (max-width:614.40px) {
+	.footer {
+		padding: 15px 30px 15px 30px;
+	}
+
+	.footer__logo {
+		font-size: 14px;
+	}
+
+	.footer-text {
+		font-size: 8px;
+	}
+}
+
+@media (max-width:384px) {
+	.footer {
+		flex-direction: column;
+		padding: 15px 30px 15px 30px;
+		text-align: center;
+	}
+
+	.footer-text {
+		padding-top: 0;
+		font-size: 6px;
+		line-height: 100%;
+	}
+
+	.footer__logo {
+		font-size: 10px;
+	}
+}

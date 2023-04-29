@@ -22,6 +22,7 @@
 				<div class="header__menu">
 					<a href="#" class="header__logo" id="logo-top">MOUNTAIN</a>
 					<div class="header__items">
+						<button class="pictures header__mobile-menu"></button>
 						<ul class="top-menu header__items-menu">
 							<li class="header__items-about">
 								<a href="#about-us">О нас</a>
@@ -40,7 +41,10 @@
 							</li>
 						</ul>
 						<ul class="top-menu header__items-item">
-							<li class="header__items-phone">8 (800) 777-33-25</li>
+							<li class="header__items-phone">
+								<span class="header__items-phone header__items-phone_numb">8 (800) 777-33-25</span>
+								<button class="pictures header__items-phoneicon"></button>
+							</li>
 							<li class="header__items-search">
 								<button class="header__items-search-button pictures top-menu__button"></button>
 							</li>
@@ -83,7 +87,7 @@
 								сопровождение.</p>
 						</div>
 					</div>
-					<div class="picture about-map"></div>
+					<div class="picture picture__about about-map"></div>
 				</div>
 			</article>
 
@@ -158,7 +162,7 @@
 			</article>
 
 			<article>
-				<div class="picture way">
+				<div class="picture way picture-cover">
 					<div class="way__title">
 						<h3 class="title way__title-color">Россия</h3>
 					</div>
@@ -237,6 +241,9 @@
 										<a href="">Как подготовиться к первому
 											восхождению на вершину</a>
 									</p>
+									<div class="blog-articles__item-next">
+										<button class="blog-articles__item-btn">Читать далее...</button>
+									</div>
 								</li>
 								<hr class="blog-articles__line">
 								<li class="blog-articles__item">
@@ -245,6 +252,9 @@
 										<a href="">Фестиваль Alpika Freeski Аlpindustria Fest
 											Красная Поляна 13-16 февраля</a>
 									</p>
+									<div class="blog-articles__item-next">
+										<button class="blog-articles__item-btn">Читать далее...</button>
+									</div>
 								</li>
 								<hr class="blog-articles__line">
 								<li class="blog-articles__item">
@@ -253,6 +263,9 @@
 										<a href="">Особенности альпинизма на Камчатке.
 											Все о Ключевой Сопке</a>
 									</p>
+									<div class="blog-articles__item-next">
+										<button class="blog-articles__item-btn">Читать далее...</button>
+									</div>
 								</li>
 								<hr class="blog-articles__line">
 								<li class="blog-articles__item">
@@ -260,6 +273,9 @@
 									<p class="blog-articles__item-title">
 										<a href="">Что происходит с человеком на высоте более 3000 метров?</a>
 									</p>
+									<div class="blog-articles__item-next">
+										<button class="blog-articles__item-btn">Читать далее...</button>
+									</div>
 								</li>
 								<hr class="blog-articles__line">
 								<li class="blog-articles__item">
@@ -267,6 +283,9 @@
 									<p class="blog-articles__item-title">
 										<a href="">Что происходит с человеком на высоте более 3000 метров?</a>
 									</p>
+									<div class="blog-articles__item-next">
+										<button class="blog-articles__item-btn">Читать далее...</button>
+									</div>
 								</li>
 								<hr class="blog-articles__line">
 							</ul>
@@ -287,7 +306,11 @@
 										них приходится максимальная нагрузка на высоте. Поэтому из-за недостаточной подготовки вы
 										можете сойти на полпути. Чтобы этого не случилось, занимайтесь плаванием, бегом,
 										велосипедом и кардиотренировками.</p>
-									<p>Как должны проходить тренировки? В первую очередь, тренировки должны проходить постоянно,
+									<div class="blog-articles__block-button">
+										<button class="blog-articles__block-btn">Читать далее ...</button>
+									</div>
+									<p class="blog-articles__block-text blog-articles__block-text_hidden">Как должны проходить
+										тренировки? В первую очередь, тренировки должны проходить постоянно,
 										эффективно и интенсивно. Кроме того, нагрузка постепенно должна увеличиваться. В случае с
 										бегом обязательно делать это с учетом пульса. Грамотно спланированный бег позволит не
 										только сбросить вес, но и укрепит сердечную мышцу. При беге с высоким пульсом вы позволите
@@ -327,13 +350,14 @@
 								</p>
 								<hr class="order-request-form__line order-request-form__line_mb">
 								<button type="submit" class="order-request__button-btn">Отправить</button>
-								<p class="order-request-form__text">Нажимая кнопку, вы соглашаетесь с условиями обработки
+								<p class="order-request-form__text order-request-form__text_fs">Нажимая кнопку, вы соглашаетесь
+									с условиями обработки
 									персональных данных</p>
 							</form>
 						</div>
 					</div>
 					<div class="order-image">
-						<div class="order-image__bgi picture"></div>
+						<div class="order-image__bgi picture picture-cover"></div>
 					</div>
 				</div>
 			</article>
@@ -344,8 +368,9 @@
 						<div class="contacts-map picture"></div>
 						<div class="contacts-info">
 							<div class="contacts-info__title">
-								<h3 class="title">Контакты</h3>
+								<h3 class="title title__contacts">Контакты</h3>
 							</div>
+							<div class="contacts-info__img-mobile"></div>
 							<div class="contacts-info__data">
 								<div class="contacts-info__address">
 									<p class="contacts-info__address contacts-name">Адрес:</p>
@@ -385,7 +410,7 @@
 		</div>
 
 		<div class="footer">
-			<div class="footer__rights footer-text">Maroon 2020 Все права защищены</div>
+			<div class="footer__rights footer-text">Maroon &copy; 2020 Все права защищены</div>
 			<div class="footer__logo">
 				<a href="#logo-top">MOUNTAIN</a>
 			</div>
