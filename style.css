@@ -2,4 +2,26 @@
 
 @import url("global_styles.css");
 
+@import url("./styles/page.css");
+
 @import url("./styles/header.css");
+
+@import url("./styles/title.css");
+
+@import url("./styles/about.css");
+
+@import url("./styles/popular.css");
+
+@import url("./styles/picture.css");
+
+@import url("./styles/pictures.css");
+
+@import url("./styles/way.css");
+
+@import url("./styles/blog.css");
+
+@import url("./styles/order.css");
+
+@import url("./styles/contacts.css");
+
+@import url("./styles/footer.css");

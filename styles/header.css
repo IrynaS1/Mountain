@@ -2,11 +2,306 @@
 	background-image: url("../images/main.png");
 	min-width: 100%;
 	min-height: 650px;
-	background-size: contain;
-	background-position: center;
-	background-repeat: no-repeat;
 }
 
 .header__menu {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 42px;
+	padding-bottom: 160px;
 	margin: 0 98px;
+}
+
+.header__logo {
+	font-style: normal;
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 36px;
+	margin-right: 99px;
+}
+
+.header__mobile-menu {
+	display: none;
+}
+
+.header__items {
+	display: flex;
+}
+
+.top-menu {
+	display: flex;
+}
+
+.header__items-menu {
+	gap: 30px;
+	padding-top: 9px;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 19px;
+	margin-right: 296px;
+}
+
+.header__items-phone {
+	padding-top: 9px;
+	margin-right: 43px;
+}
+
+.header__items-phoneicon {
+	display: none;
+}
+
+.header__items-search {
+	margin-right: 30px;
+}
+
+.top-menu__button {
+	min-width: 35px;
+	min-height: 35px;
+	padding-top: 0;
+	background: rgba(252, 252, 252, 0.4);
+	border-radius: 50%;
+	border: none;
+}
+
+.header__items-search-button {
+	background-image: url('../images/search-icon.svg');
+}
+
+.header__items-registration-button {
+	background-image: url('../images/reg-icon.svg');
+}
+
+.top-title__text {
+	text-align: center;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 98px;
+	line-height: 145px;
+}
+
+.top-title {
+	margin-bottom: 30px;
+}
+
+.top-button {
+	padding-left: 596px;
+	padding-right: 600px;
+}
+
+.top-button__detail {
+	padding: 16px 43px 18px 43px;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 19px;
+	color: #FCFCFC;
+	border: 2px solid #FCFCFC;
+	background: url(snow-coated-rocky-mountains-772803.jpg);
+}
+
+@media (max-width: 1228.80px) {
+	.header__menu {
+		margin: 0 30px;
+	}
+
+	.header__items-menu {
+		margin-right: 200px;
+	}
+
+	.top-button {
+		padding-left: 520px;
+		padding-right: 535px;
+	}
+}
+
+@media (max-width: 1024px) {
+	.header__logo {
+		margin-right: 60px;
+	}
+
+	.header {
+		min-height: 480px;
+	}
+
+	.header__items-menu {
+		margin-right: 90px;
+	}
+
+	.header__menu {
+		padding-bottom: 60px;
+	}
+
+	.top-button {
+		padding-left: 420px;
+	}
+}
+
+@media (max-width: 877.71px) {
+	.header__logo {
+		font-size: 20px;
+	}
+
+	.header__items-menu {
+		gap: 20px;
+		font-size: 14px;
+	}
+
+	.top-button {
+		padding-left: 350px;
+	}
+}
+
+@media (max-width: 768px) {
+	.header__logo {
+		margin-right: 50px;
+	}
+
+	.header__items-menu {
+		margin-right: 50px;
+	}
+
+	.header__items-phone {
+		font-size: 14px;
+	}
+
+	.header__items-search,
+	.header__items-registration {
+		padding-top: 5px;
+	}
+
+	.top-menu__button {
+		min-width: 25px;
+		min-height: 25px;
+	}
+
+	.header__items-phone {
+		margin-right: 20px;
+	}
+
+	.top-button {
+		padding-left: 290px;
+	}
+}
+
+@media (max-width:614.40px) {
+	.header__menu {
+		flex-direction: column;
+		padding-top: 25px;
+	}
+
+	.header__items {
+		justify-content: space-between;
+	}
+
+	.header__logo {
+		font-size: 16px;
+		margin-bottom: 0;
+	}
+
+	.header__menu {
+		padding-bottom: 40px;
+	}
+
+	.header__items-menu {
+		gap: 15px;
+		font-size: 12px;
+	}
+
+	.header__items-phone {
+		font-size: 12px;
+	}
+
+	.top-title {
+		margin-bottom: 10px;
+	}
+
+	.top-title__text {
+		font-size: 70px;
+	}
+
+	.top-button {
+		padding-left: 245px;
+	}
+
+	.top-button__detail {
+		padding: 10px 10px;
+		font-size: 16px;
+	}
+}
+
+@media (max-width:512px) {
+	.header__items-phone_numb {
+		display: none;
+	}
+
+	.header__items-phone {
+		padding-top: 5px;
+	}
+
+	.header__items-phoneicon {
+		display: block;
+		background-image: url('../images/iconmonstr-phone-thin.svg');
+		min-width: 25px;
+		min-height: 25px;
+		border-radius: 50%;
+		opacity: 0.3;
+		border: none;
+	}
+
+	.header__items-search {
+		margin-right: 20px;
+	}
+
+	.top-button {
+		padding-left: 190px;
+	}
+}
+
+@media (max-width:384px) {
+	.header__items-menu {
+		display: none;
+	}
+
+	.header__mobile-menu {
+		display: block;
+		background-image: url('../images/iconmonstr-menu-left-lined.svg');
+		min-width: 30px;
+		min-height: 30px;
+		border-radius: 50%;
+		opacity: 0.2;
+		border: none;
+	}
+
+	.header__logo {
+		margin-bottom: 20px;
+	}
+
+	.top-button {
+		padding-left: 150px;
+	}
+}
+
+@media (max-width:307.20px) {
+	.header__menu {
+		padding-top: 10px;
+	}
+
+	.header__logo {
+		padding-left: 90px;
+		margin-right: 0;
+		margin-bottom: 10px;
+	}
+
+	.top-title__text {
+		font-size: 50px;
+	}
+
+	.top-button__detail {
+		font-size: 12px;
+	}
+
+	.top-button {
+		padding-left: 120px;
+	}
 }
