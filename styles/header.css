@@ -140,6 +140,11 @@
 @media (max-width: 877.71px) {
 	.header__logo {
 		font-size: 20px;
+		margin-right: 50px;
+	}
+
+	.header__items-phone {
+		margin-right: 30px;
 	}
 
 	.header__items-menu {
